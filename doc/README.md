@@ -12,4 +12,4 @@ Coming up:
 - Construction of similarity/dissimilarity matrices
 - Imputation techniques
 
-Support me on Patreon! (Just kidding)
+If you like these notes, support me on Patreon! (Just kidding)
