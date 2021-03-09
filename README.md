@@ -4,9 +4,10 @@ This repository is for serving, through github.io, various files such as
 
 (1) HTML pages from the other repositories, 
 
-(2) data files (/data), 
+(2) PDF and DOC files (/doc): mostly notes on applications of spectral theory
 
-(3) library files (/lib), and
+(3) data files (/data), and
 
-(4) PDF and DOC files (/doc).
+(4) library files (/lib).
+
 
