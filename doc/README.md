@@ -8,5 +8,5 @@ Mostly notes on applications of spectral theory
 
 Coming up: 
 
-- Dimensionality reduction
+- Dimensionality reduction (MDS/ LLE/ Spectral Embedding/ t-SNE/ UMAP)
 - Construction of similarity/dissimilarity matrices
