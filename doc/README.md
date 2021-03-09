@@ -9,7 +9,7 @@ Mostly notes on applications of spectral theory
 Coming up (probably by end of May): 
 
 - Dimensionality reduction (MDS/ LLE/ Spectral Embedding/ t-SNE/ UMAP)
-- Construction of similarity/dissimilarity matrices
 - Imputation techniques
+- Construction of similarity/dissimilarity matrices
 
 If you like these notes, support me on Patreon! (Just kidding)
