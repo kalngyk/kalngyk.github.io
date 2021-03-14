@@ -13,7 +13,7 @@ Mostly notes on applications of spectral theory
    - Part 2: Self-Organizing Map and Spectral Embedding
    - Part 3: Isomap and LLE
    - Part 4: t-SNE and UMAP 
-- Similarity and Dissimilarity Matrices
+- Constructing Similarity and Dissimilarity Matrices
 - Imputation techniques
 
 If you like these notes, support me on Patreon! (Just kidding)
