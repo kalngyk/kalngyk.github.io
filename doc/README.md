@@ -1,4 +1,4 @@
-Mostly notes on applications of spectral theory and related things
+Mostly notes on some applications where spectral theory has dominated
 
 - Basics
    - [Default Matrix Orientation](https://kalngyk.github.io/doc/Default%20Matrix%20Orientation.pdf)
