@@ -8,6 +8,7 @@ Mostly notes on some applications where spectral theory has dominated
    - [Part 1: The Graph Laplacian](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt1.pdf)
    - [Part 2: Weighted Graph Laplacians](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt2.pdf)
    - [Part 3: The Normalized Laplacian](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt3.pdf)
+   - Part 4: DBScan as Spectral Clustering
 - Dimensionality Reduction
    - Part 1: Multidimensional Scaling
    - Part 2: Self-Organizing Map and Spectral Embedding
