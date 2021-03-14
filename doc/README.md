@@ -12,7 +12,7 @@ Mostly notes on applications of spectral theory
    - Part 1: Multidimensional Scaling
    - Part 2: Self-Organizing Map and Spectral Embedding
    - Part 3: Isomap and LLE
-   - Part 4: t-SNE and UMAP 
+   - [Part 4: t-SNE and UMAP](https://kalngyk.github.io/doc/Dimensionality%20Reduction%20Pt4.pdf) 
 - Constructing Similarity and Dissimilarity Matrices
 - Imputation Techniques
 
