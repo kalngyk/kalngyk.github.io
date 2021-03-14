@@ -14,6 +14,6 @@ Mostly notes on applications of spectral theory
    - Part 3: Isomap and LLE
    - Part 4: t-SNE and UMAP 
 - Constructing Similarity and Dissimilarity Matrices
-- Imputation techniques
+- Imputation Techniques
 
 If you like these notes, support me on Patreon! (Just kidding)
