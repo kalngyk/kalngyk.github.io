@@ -10,10 +10,10 @@ Mostly notes on applications of spectral theory
    - [Part 3: The Normalized Laplacian](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt3.pdf)
 - Dimensionality Reduction
    - Part 1: Multidimensional Scaling
-   - Part 2: self-Organizing Map
+   - Part 2: Self-Organizing Map
    - Part 3: Isomap and LLE
    - Part 4: t-SNE and UMAP 
-- Similarity and Dissimularity Matrices
+- Similarity and Dissimilarity Matrices
 - Imputation techniques
 
 If you like these notes, support me on Patreon! (Just kidding)
