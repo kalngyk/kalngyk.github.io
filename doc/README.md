@@ -14,11 +14,6 @@ Mostly notes on applications of spectral theory
    - Part 3: Isomap and LLE
    - Part 4: t-SNE and UMAP 
 - Similarity and Dissimularity Matrices
-
-Coming up (probably by end of May): 
-
-- Dimensionality reduction (MDS/ LLE/ Spectral Embedding/ t-SNE/ UMAP)
 - Imputation techniques
-- Construction of similarity/dissimilarity matrices
 
 If you like these notes, support me on Patreon! (Just kidding)
