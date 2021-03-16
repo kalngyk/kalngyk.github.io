@@ -11,9 +11,8 @@ Mostly notes on some areas where spectral theory has dominated (trying to develo
    - Part 4: DBScan as Spectral Clustering
 - Dimensionality Reduction
    - Part 1: Multidimensional Scaling
-   - Part 2: Self-Organizing Map and Spectral Embedding
-   - Part 3: Isomap and LLE
-   - [Part 4: t-SNE and UMAP](https://kalngyk.github.io/doc/Dimensionality%20Reduction%20Pt4.pdf) 
+   - Part 2: Isomap and LLE
+   - [Part 3: t-SNE and UMAP](https://kalngyk.github.io/doc/Dimensionality%20Reduction%20Pt4.pdf) 
 - Constructing Similarity and Dissimilarity Matrices
 - Imputation Techniques
 
