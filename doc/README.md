@@ -2,7 +2,7 @@ Mostly notes on some areas where spectral theory has dominated (trying to develo
 
 - Basics
    - [Default Matrix Orientation](https://kalngyk.github.io/doc/Default%20Matrix%20Orientation.pdf)
-   - [Gramians are positive semi-definite](https://kalngyk.github.io/doc/Gramians%20are%20PSD.pdf)
+   - Gramians
 - [PCA](https://kalngyk.github.io/doc/Spectral%20theory%20basis%20of%20PCA.pdf)
 - Spectral Clustering
    - [Part 1: The Graph Laplacian](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt1.pdf)
