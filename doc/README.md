@@ -1,9 +1,10 @@
 Mostly notes on some areas where spectral theory has dominated (trying to develop this into an introductory course)
 
 - Basics
-   - [The Inner Products AAT and ATA](https://kalngyk.github.io/doc/AAT%20and%20ATA.pdf)
+   - [Just Enough Spectral Theory for Machine Learning](https://kalngyk.github.io/doc/Basic%20Spectral%20Theory.pdf)
+   - [Gramian and Covariance](https://kalngyk.github.io/doc/AAT%20and%20ATA.pdf)
 - Dimensionality Reduction
-   - [Part 1: PCA and kPCA](https://kalngyk.github.io/doc/Dimensionality%20Reduction%20Pt1.pdf) 
+   - Part 1: PCA and kPCA
    - [Part 2: Multidimensional Scaling](https://kalngyk.github.io/doc/Dimensionality%20Reduction%20Pt2.pdf) 
    - Part 3: Isomap and LLE
    - [Part 4: t-SNE and UMAP](https://kalngyk.github.io/doc/Dimensionality%20Reduction%20Pt4.pdf) 
