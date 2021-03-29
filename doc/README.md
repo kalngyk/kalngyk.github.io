@@ -6,7 +6,7 @@ Mostly notes on some areas where spectral theory has dominated (trying to develo
 - Dimensionality Reduction
    - [Part 1: PCA and KPCA](https://kalngyk.github.io/doc/Dimensionality%20Reduction%20Pt1.pdf) 
    - [Part 2: Multidimensional Scaling](https://kalngyk.github.io/doc/Dimensionality%20Reduction%20Pt2.pdf) 
-   - Part 3: Isomap and LLE
+   - [Part 3: The Local Manifold](https://kalngyk.github.io/doc/Dimensionality%20Reduction%20Pt3.pdf) 
    - [Part 4: t-SNE and UMAP](https://kalngyk.github.io/doc/Dimensionality%20Reduction%20Pt4.pdf) 
 - Spectral Clustering
    - [Part 1: The Graph Laplacian](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt1.pdf)
