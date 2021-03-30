@@ -1,4 +1,4 @@
-Mostly notes on some areas where spectral theory has dominated (trying to develop this into an introductory course)
+Mostly notes on some areas with strong spectral theory presence
 
 - Basics
    - [Basic Spectral Theory](https://kalngyk.github.io/doc/Basic%20Spectral%20Theory.pdf)
