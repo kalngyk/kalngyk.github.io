@@ -6,7 +6,7 @@ This repository is for serving, through github.io, various files such as
 
 - PDF and DOC files ([/doc](https://github.com/kalngyk/kalngyk.github.io/tree/main/doc))
      - Mostly notes on some areas with strong spectral theory presence
-#include "doc/Readme.md"
+#include "doc/README.md"
 
 - data files (/data), and
 
