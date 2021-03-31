@@ -4,10 +4,8 @@ This repository is for serving, through github.io, various files such as
 
 - HTML pages from the other repositories, 
 
-- PDF and DOC files ([/doc](https://github.com/kalngyk/kalngyk.github.io/tree/main/doc))
+- PDF and DOC files ([/doc](https://kalngyk.github.io/tree/main/doc/README.md))
      - Mostly notes on some areas with strong spectral theory presence
-@@include[README.md](doc/README.md)
-"https://kalngyk.github.io/doc/README.md"
 
 - data files (/data), and
 
