@@ -4,9 +4,6 @@ This repository is for serving, through github.io, various files such as
 
 - HTML pages from the other repositories, 
 
-- Jupyter notebooks
-  - [Python Tutorial](https://kalngyk.github.io/python_tutorial.ipynb)
-
 - data files (/data), and
 
 - library files (/lib)
