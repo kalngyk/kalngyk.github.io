@@ -4,9 +4,11 @@ This repository is for serving, through github.io, various files such as
 
 - HTML pages from the other repositories, 
 
-- data files (/data), and
+- data files (/data),
 
-- library files (/lib)
+- Jupyter notebooks (/ipynb), 
+
+- library files (/lib), and
 
 - PDF and DOC files ([/doc](https://github.com/kalngyk/kalngyk.github.io/tree/main/doc/))
 
