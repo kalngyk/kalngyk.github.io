@@ -17,7 +17,8 @@
             padding-right: 20px;
         }
     </style>
-
+Last updated: <span id='DATE'></span>
+<p>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
@@ -115,26 +116,52 @@ north: 4.86614
                     dataType: 'json',
                     timeout: 5000,
                     success: function (data, status, xhr) {
+                        var datetime = xhr.getResponseHeader("Last-Modified");
+                        var date = datetime.substr(0, datetime.indexOf("2021"));
+                        document.getElementById("DATE").innerHTML = date;
+                        console.log(document.body.innerHTML);
+                        var cases = []
                         for (var i = 0; i < data.length; i++) {
-                                console.log(data[i]);
+                            cases.push(data[i][2]);
+                        }
+                        sorted_cases = cases.filter(unique);
+                        sorted_numbers = sorted_cases.sort(function(a, b){return a-b});
+                        console.log(sorted_numbers);
+                        interval = Math.round(colors.length / sorted_numbers.length);
+
+                        for (var i = 0; i < data.length; i++) {
+                                color_index = sorted_numbers.indexOf(data[i][2]) * interval;
+                                color = colors[color_index]
                                 const Circle = new google.maps.Circle({
-                                    strokeColor: '#FF0000',
+                                    strokeColor: color,
                                     strokeOpacity: 1,
-                                    strokeWeight: 3,
-                                    fillColor: '#FFFFFF',
-                                    fillOpacity: 0,
+                                    strokeWeight: 1,
+                                    fillColor: color,
+                                    fillOpacity: 0.5,
                                     map,
                                     center: { lat: data[i][0], lng: data[i][1] },
-                                    radius: 20,
+                                    radius: 40,
                                 });
                         }
 
+                        for (var i = 0; i < data.length; i++) {
+                                var Label = new google.maps.Marker({
+                                    label: {
+                                     text: data[i][2].toString(),
+                                     color: "white"
+                                    },
+                                    position: new google.maps.LatLng(data[i][0], data[i][1]),
+                                    map: map,
+                                    fontSize: 10,
+                                    align: 'right'
+                                });
+                        }
                     },
                     error: function (jqXhr, textStatus, errorMessage) {
                         alert('Error to get json data from https://github.com/huseinzol05/project-suka-suka/tree/main/mysejahtera-hotspot, please try again');
                     }
                 });
-  
+                
                 /*
                 $.ajax(data[s], {
                     dataType: 'json',
@@ -194,7 +221,6 @@ north: 4.86614
 </head>
 
 <body>
-    Last update: 19 Jun 2021
     <div id="map"></div>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKcq8q3GX6Sf3UUrYnxjdJ2J9fs1_xzxc&callback=initMap&libraries=&v=weekly"
