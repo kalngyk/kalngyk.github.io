@@ -3,7 +3,7 @@
 
 <head>
     <title>Locations in Taiping Town Marked by MySejahtera Hotspot</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!--<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>-->
     <style>
         #map {
             height: 200%;
@@ -159,54 +159,10 @@ north: 4.86614
                         }
                     },
                     error: function (jqXhr, textStatus, errorMessage) {
-                        alert('Error to get json data from https://github.com/huseinzol05/project-suka-suka/tree/main/mysejahtera-hotspot, please try again');
+                        alert('Error retrieving https://kalngyk.github.io/data/locations.json. Please try again later.');
                     }
                 });
-                
-                /*
-                $.ajax(data[s], {
-                    dataType: 'json',
-                    timeout: 5000,
-                    success: function (data, status, xhr) {
-                    
-                        var cases = []
-                        for (var i = 0; i < data.length; i++) {
-                            cases.push(data[i][2]);
-                        }
-                        sorted_cases = cases.filter(unique);
-                        sorted_numbers = sorted_cases.sort(function(a, b){return a-b});
-                        console.log(sorted_numbers);
-                        interval = Math.round(colors.length / sorted_numbers.length);
-                        
-                        for (var i = 0; i < data.length; i++) {
-                            if (data[i][2] > 0) {
-                                color_index = sorted_numbers.indexOf(data[i][2]) * interval;
-                                color = colors[color_index]
-                                //console.log(data[i][2] + "," + color_index)
-                                const Circle = new google.maps.Circle({
-                                    strokeColor: color,
-                                    strokeOpacity: 0.8,
-                                    strokeWeight: 1,
-                                    fillColor: color,
-                                    fillOpacity: 0.8,
-                                    map,
-                                    center: { lat: data[i][0], lng: data[i][1] },
-                                    radius: 6,
-                                });
-                               //setMouseOverEvent(Circle);
-                               //makeClickable(Circle);
-
-
-                            }
-
-                        }
-
-                    },
-                    error: function (jqXhr, textStatus, errorMessage) {
-                        alert('Error to get json data from https://github.com/huseinzol05/project-suka-suka/tree/main/mysejahtera-hotspot, please try again');
-                    }
-                });
-                */
+        
             }
 
             init();
