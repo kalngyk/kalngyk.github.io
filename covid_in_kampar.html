@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Locations in Taiping Town Marked by MySejahtera Hotspot</title>
+    <title>Locations in Kampar Marked by MySejahtera Hotspot</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -21,13 +21,13 @@
     </style>
 
 <script>
-var location_id = 'taiping_town';
-var zoom = 15;
-var west = 100.7224
-var east = 100.75760
-var south = 4.83614
-var north = 4.86614
-var center = [4.851140000000032, 100.74000000000058]
+var location_id = 'kampar';
+var zoom = 15.5;
+var west = 101.13405
+var east = 101.15805
+var south = 4.30258
+var north = 4.33158
+var center = [4.317080000000031, 101.1460500000004]
 var datasource = 'https://kalngyk.github.io/data/locations-' + location_id + '.json';
 </script>
 
@@ -88,9 +88,9 @@ function initMap()
     const rectangle = new google.maps.Rectangle ({
         strokeColor: "#000000",
         strokeOpacity: 1,
-        strokeWeight: 0.5,
+        strokeWeight: 1,
         fillColor: "#000000",
-        fillOpacity: 0.,
+        fillOpacity: 0,
         map,    
         bounds: {
             east: east,
