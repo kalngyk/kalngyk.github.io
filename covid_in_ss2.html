@@ -140,21 +140,29 @@ function initMap()
                                     radius: 40,
                 });
             }
-            /*
+
+            var has_case_info = false;
             for (var i = 0; i < data.length; i++) {
-                 if (data[i][2] == -1)
-                     text = '?';
-                 else
-                     text = Math.round(data[i][2]).toString();
-                 var Label = new google.maps.Marker({
+                 if (data[i][2] != -1)
+                     has_case_info = true;
+                     break;
+            }
+            if (has_case_info)
+            {
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i][2] == -1)
+                        text = '?';
+                     else
+                        text = Math.round(data[i][2]).toString();
+                    var Label = new google.maps.Marker({
                                     label: { text: text, color: "white" },
                                     position: new google.maps.LatLng(data[i][0], data[i][1]),
                                     map: map,
                                     fontSize: 10,
                                     align: 'right'
-                });
+                    });
+                }
             }
-            */
         },
         error:
         function (jqXhr, textStatus, errorMessage)
@@ -186,4 +194,5 @@ function initMap()
         async>
     </script>
 </body>
+
 </html>
