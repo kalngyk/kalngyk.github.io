@@ -149,10 +149,10 @@ function initMap()
                 color_index = sorted_numbers.indexOf(data[i][2]) * interval;
                 color = colors[color_index]
                 const Circle = new google.maps.Circle({
-                                    strokeColor: '#FF0000',
+                                    strokeColor: color,
                                     strokeOpacity: 1,
                                     strokeWeight: 1,
-                                    fillColor: '#FF0000',
+                                    fillColor: color,
                                     fillOpacity: 0.5,
                                     map,
                                     center: { lat: data[i][0], lng: data[i][1] },
