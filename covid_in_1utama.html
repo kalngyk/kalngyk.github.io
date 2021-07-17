@@ -141,7 +141,7 @@ function initMap()
                 });
             }
             for (var i = 0; i < data.length; i++) {
-                 var text;
+                 var cases = data[i][2] > 0? data[i][2].toString(): '?';
                  var Label = new google.maps.Marker({
                                     label: { text: data[i][2].toString(), color: "white" },
                                     position: new google.maps.LatLng(data[i][0], data[i][1]),
