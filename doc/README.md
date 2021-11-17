@@ -14,7 +14,7 @@ Mostly notes on some areas with strong spectral theory presence
    - [Part 1: The Graph Laplacian](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt1.pdf)
    - [Part 2: Weighted Graph Laplacians](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt2.pdf)
    - [Part 3: The Normalized Laplacian](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt3.pdf)
-- Deep Learning related
+- Deep Learning-related
    - [Graph Neural Networks](https://kalngyk.github.io/doc/GNN.pdf)
 
 
