@@ -3,6 +3,9 @@
 This repository is for serving, through github.io, various files such as
 
 - HTML pages from the other repositories, 
+  - https://kalngyk.github.io/kmeans_study_buddy.html
+  - https://kalngyk.github.io/covidmap/covid_in_taiping.html
+  - https://kalngyk.github.io/segmentplacer/figure2d.html
 
 - data files (/data),
 
