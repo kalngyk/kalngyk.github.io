@@ -31,6 +31,6 @@ This repository is for serving, through github.io, various files such as
     - [Part 1: The Graph Laplacian](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt1.pdf)
     - [Part 2: Weighted Graph Laplacians](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt2.pdf)
     - [Part 3: The Normalized Laplacian](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt3.pdf)
-  - Deep Learning-related
-    - [Graph Neural Networks](https://kalngyk.github.io/doc/GNN.pdf)
+  - Graph Neural Networks
+    - [GNNs Demystified](https://kalngyk.github.io/doc/GNN.pdf)
 
