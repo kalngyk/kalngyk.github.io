@@ -16,7 +16,7 @@ Mostly notes on some areas with strong spectral theory presence
    - [Part 3: The Normalized Laplacian](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt3.pdf)
 - Graph Neural Networks
    - [GNNs Demystified](https://kalngyk.github.io/doc/GNN.pdf)
-   - GNN but spectral
+   - GNNs but spectral
 
 
 If you like these notes, support me on Patreon! (Just kidding)
