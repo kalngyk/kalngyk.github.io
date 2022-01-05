@@ -33,4 +33,5 @@ This repository is for serving, through github.io, various files such as
     - [Part 3: The Normalized Laplacian](https://kalngyk.github.io/doc/Spectral%20Clustering%20Pt3.pdf)
   - Graph Neural Networks
     - [GNNs Demystified](https://kalngyk.github.io/doc/GNN.pdf)
+    - GNNs but spectral
 
